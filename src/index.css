@@ -1,0 +1,57 @@
+#bg-linear {
+  background-image: url("./src/assets/auth-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+* {
+  font-family: "Poppins";
+}
+body {
+  height: 100vh;
+}
+#root {
+  height: 100%;
+}
+.bg-whole {
+  background-color: #f5167e !important;
+}
+.fs-7 {
+  font-size: 13px !important;
+}
+.crs {
+  cursor: pointer;
+}
+.bg-grey {
+  background-color: #f3f1ff;
+}
+.border-whole {
+  border: 1px solid #f5167e !important;
+  color: #f5167e !important;
+}
+input::placeholder {
+  font-size: 13px;
+}
+input:focus {
+  outline: none;
+}
+.my-form {
+  min-width: 280px !important;
+  max-width: 320px !important;
+}
+.custom-modal .modal-dialog {
+  width: auto;
+  max-width: 500px;
+}
+.otp-field {
+  width: 55px !important;
+  height: 55px !important;
+}
+.Toastify__close-button {
+  color: white !important;
+  margin: 0px 5px !important;
+}
+
+.formargin {
+  margin-top: -15px !important;
+  margin-left: 13px !important;
+}
